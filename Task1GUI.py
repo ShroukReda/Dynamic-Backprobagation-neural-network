@@ -53,14 +53,6 @@ label2.pack()
 R2=tk.Entry(top,bd=5)
 R2.pack()
 
-'''
-var1 = StringVar()
-label1 = Label( top, textvariable=var1, relief=RAISED )
-var1.set("please, Enter # of Epochs")
-label1.pack()
-Ep=tk.Entry(top,bd=5)
-Ep.pack()
-'''
 
 var = StringVar()
 label = Label( top, textvariable=var, relief=RAISED )
